@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: test1_vlocal.ma
-//Last modified: Tue, Mar 07, 2023 04:56:58 PM
+//Last modified: Tue, Mar 07, 2023 04:57:47 PM
 //Codeset: 1251
 requires maya "2020";
 requires "mtoa" "4.0.2";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "202002251615-329d215872";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 22621)\n";
-fileInfo "UUID" "E4EA616C-4B7B-8F85-F173-1C9C9EB69D0B";
+fileInfo "UUID" "F4E3CEFA-4998-CF39-1B6E-25AB5784200E";
 createNode transform -s -n "persp";
 	rename -uid "D2BD4CA6-4F2B-B0D2-94B7-D082B42EF643";
 	setAttr ".v" no;
