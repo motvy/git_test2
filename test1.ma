@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: test1_vlocal.ma
-//Last modified: Tue, Mar 07, 2023 04:38:32 PM
+//Last modified: Tue, Mar 07, 2023 04:56:58 PM
 //Codeset: 1251
 requires maya "2020";
 requires "mtoa" "4.0.2";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "202002251615-329d215872";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 22621)\n";
-fileInfo "UUID" "5D02B696-48A8-14FE-3140-D09D97FE829F";
+fileInfo "UUID" "E4EA616C-4B7B-8F85-F173-1C9C9EB69D0B";
 createNode transform -s -n "persp";
 	rename -uid "D2BD4CA6-4F2B-B0D2-94B7-D082B42EF643";
 	setAttr ".v" no;
@@ -78,6 +78,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -n "pCylinder1";
 	rename -uid "89449C19-4A8C-2D53-E391-34B413C0F321";
+	setAttr ".t" -type "double3" -1.1873527802085384 0.9954334263596154 7.0840716509494186 ;
 createNode mesh -n "pCylinderShape1" -p "pCylinder1";
 	rename -uid "2382A13E-42A0-7EC5-AEF0-E5821628B4A7";
 	setAttr -k off ".v";
